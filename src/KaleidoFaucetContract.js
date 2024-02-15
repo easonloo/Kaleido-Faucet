@@ -566,7 +566,9 @@ const contractAbi = [
   },
 ];
 
-const contractAddress = "0xc7cbc0431485325c814baf4a5ba699c7b1659775";
+
+
+const contractAddress = "0xa7a41ecc3cf7bc43c1a23962c8eb0f94ab2ba51b";
 const KaleidoFaucetContract = new web3.eth.Contract(
   contractAbi,
   contractAddress
